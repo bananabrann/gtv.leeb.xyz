@@ -5,9 +5,16 @@ img {
 }
 
 .brand {
-    display: inline;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #netflix {
     background-color: #000000;
+}
+
+#hulu {
+    background-color: #1ce783;
 }
