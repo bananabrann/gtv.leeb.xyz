@@ -8,7 +8,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     .img {
         width: 100%;
         max-height: 100%;
@@ -24,4 +24,7 @@ img {
 
 #hulu {
     background-color: #1ce783;
+    img {
+        padding: 10%;
+    }
 }
