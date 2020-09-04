@@ -9,7 +9,15 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(scss)$/,
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
+        test: /\.(scss)$/, 
         use: [
           {
             loader: 'style-loader'
