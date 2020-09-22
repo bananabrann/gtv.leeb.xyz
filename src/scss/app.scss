@@ -1,39 +1,39 @@
 @import "~bootstrap/scss/bootstrap";
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .brand-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .img {
+    width: 100%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .img {
-        width: 100%;
-        max-height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  }
 }
 
 #netflix {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 #hulu {
-    background-color: #1ce783;
-    img {
-        padding: 10%;
-    }
+  background-color: #1ce783;
+  img {
+    padding: 10%;
+  }
 }
 
 #header {
-    display: flex;
-    justify-content: space-between;
-    // background-repeat: no-repeat;
-    // background-image: url("../img/us-flag.png");
-    background-image: url("../img/leaves.gif");
-    background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  // background-repeat: no-repeat;
+  // background-image: url("../img/us-flag.png");
+  background-image: url("../img/leaves.gif");
+  background-size: contain;
 }
