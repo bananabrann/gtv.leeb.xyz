@@ -6,8 +6,7 @@
 # Get the directory of this script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-# Call the biuld script
-bash $DIR/build.sh
+# NOTE - The build script is called from package.json scripts
 
 # Check if .env exists
 if [ -f .env ]
